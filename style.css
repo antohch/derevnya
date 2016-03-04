@@ -114,3 +114,48 @@ a:hover.callback-button{
 	height:106px;
 	width:100%;
 }
+a.soc1{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	background:rgba(0, 0, 0, 0) url("images/soc.png") no-repeat scroll 0px -29px;
+}
+a:hover.soc1{
+background:rgba(0, 0, 0, 0) url("images/soc.png") no-repeat scroll 0px 0px;
+}
+a.soc2{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	background:rgba(0, 0, 0, 0) url("images/soc.png") no-repeat scroll 25% 99%;
+}
+a:hover.soc2{
+background:rgba(0, 0, 0, 0) url("images/soc.png") no-repeat scroll 25% 0;
+}
+a.soc3{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	background:rgba(0, 0, 0, 0) url("images/soc.png") no-repeat scroll 50% 99%;
+}
+a:hover.soc3{
+background:rgba(0, 0, 0, 0) url("images/soc.png") no-repeat scroll 50% 0px;
+}
+a.soc4{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	background:rgba(0, 0, 0, 0) url("images/soc.png") no-repeat scroll 75% 99%;
+}
+a:hover.soc4{
+background:rgba(0, 0, 0, 0) url("images/soc.png") no-repeat scroll 75% 0px;
+}
+a.soc5{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	background:rgba(0, 0, 0, 0) url("images/soc.png") no-repeat scroll 100% 99%;
+}
+a:hover.soc5{
+background:rgba(0, 0, 0, 0) url("images/soc.png") no-repeat scroll 100% 0px;
+}
