@@ -165,15 +165,12 @@ background:rgba(0, 0, 0, 0) url("images/soc.png") no-repeat scroll 100% 0px;
 .content{
 	width:1000px;
 	margin:0 auto;
+
 }
 .menu{
 	width:100%;
-		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7a3f08+0,5a2e06+73,5a2e06+100 */
-	background: #7a3f08; /* Old browsers */
-	background: -moz-linear-gradient(top,  #7a3f08 0%, #5a2e06 73%, #5a2e06 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  #7a3f08 0%,#5a2e06 73%,#5a2e06 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  #7a3f08 0%,#5a2e06 73%,#5a2e06 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a3f08', endColorstr='#5a2e06',GradientType=0 ); /* IE6-9 */
+	background: url(images/bg-menu.jpg ) repeat-x; 
+	margin-bottom:16px;
 }
 .menu:after{
 	display:block;
@@ -185,7 +182,10 @@ background:rgba(0, 0, 0, 0) url("images/soc.png") no-repeat scroll 100% 0px;
 	float:left;
 	font-size:13px;
 	color:#ffcd00;
-
+}
+.menu ul{
+	overflow: hidden;
+	width: 1073px;
 }
 .menu ul li:after{
 	content:" | ";
@@ -196,5 +196,7 @@ background:rgba(0, 0, 0, 0) url("images/soc.png") no-repeat scroll 100% 0px;
 .menu ul li a{
 	display:inline-block;
 	color:#fff;
-	padding: 15px 15px 15px 15px;
+	padding: 12px 15px 15px 15px;
 }
+
+
