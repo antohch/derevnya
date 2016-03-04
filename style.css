@@ -80,6 +80,9 @@ a.callback-button{
 a:hover.callback-button{
 	text-decoration: none;
 }
+a:visited.callback-button{
+	color:#fff;
+}
 .adress a:hover, .adress a:link, .adress a:active{
 	text-decoration:underline;
 }
@@ -112,7 +115,7 @@ a:hover.callback-button{
 .header-bottom{
 	background: url(images/wrapper-background.jpg);
 	height:106px;
-	width:100%;
+	min-width:1000px;
 }
 a.soc1{
 	display:inline-block;
