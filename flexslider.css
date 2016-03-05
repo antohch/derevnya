@@ -21,6 +21,7 @@
 .flex-direction-nav {margin: 0; padding: 0; list-style: none;}
 .flex-control-nav{
 	margin-bottom: 12px;
+	z-index: 2;
 }
 
 /* Icon Fonts
@@ -115,5 +116,6 @@ html[xmlns] .slides {display: block;}
 	margin: -74px 1px 0 184px;
 	width: 621px;
 	position: absolute;
+	z-index: 1;
 }
 	
