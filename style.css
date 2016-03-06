@@ -198,5 +198,37 @@ background:rgba(0, 0, 0, 0) url("images/soc.png") no-repeat scroll 100% 0px;
 	color:#fff;
 	padding: 12px 15px 15px 15px;
 }
-
+/*info*/
+.info-all:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.info{
+	float: left;
+	width: 33%;
+	position: relative;
+}
+.info:last-child{
+	float:right;
+}
+.info:first-child{
+	margin-right: 4px;
+}
+.info img{
+	border: 1px solid #fff;
+}
+.info h2{
+	background: #ffcd00 none repeat scroll 0 0;
+	display: inline-block;
+	left: 0;
+	padding-left: 12px;
+	position: absolute;
+	top: 7px;
+	width: 91%;
+	font-family: "Georgia";
+	font-size: 18px;
+	font-style: oblique;
+	color: #5a2e06;
+}
 
