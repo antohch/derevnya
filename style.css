@@ -218,7 +218,7 @@ background:rgba(0, 0, 0, 0) url("images/soc.png") no-repeat scroll 100% 0px;
 .info img{
 	border: 1px solid #fff;
 }
-.info h2{
+.info span{
 	background: #ffcd00 none repeat scroll 0 0;
 	display: inline-block;
 	left: 0;
