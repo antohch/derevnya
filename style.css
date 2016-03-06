@@ -232,6 +232,8 @@ background:rgba(0, 0, 0, 0) url("images/soc.png") no-repeat scroll 100% 0px;
 	color: #5a2e06;
 	font-weight: 700;
 	min-height: 42px; 
-
+}
+.info span br{
+	font-size: 6px;
 }
 
