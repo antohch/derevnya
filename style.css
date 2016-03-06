@@ -230,5 +230,8 @@ background:rgba(0, 0, 0, 0) url("images/soc.png") no-repeat scroll 100% 0px;
 	font-size: 18px;
 	font-style: oblique;
 	color: #5a2e06;
+	font-weight: 700;
+	min-height: 42px; 
+
 }
 
